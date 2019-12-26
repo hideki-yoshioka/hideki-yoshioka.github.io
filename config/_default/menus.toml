@@ -10,12 +10,12 @@
 
 [[main]]
   name = "スキル"
-  url = "#posts"
+  url = "#skills"
   weight = 20
 
 [[main]]
-  name = "職歴"
-  url = "#projects"
+  name = "経歴"
+  url = "#experience"
   weight = 30
 
 [[main]]
