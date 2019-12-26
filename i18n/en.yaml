@@ -41,7 +41,7 @@
 - id: btn_download
   translation: ダウンロード
 - id: interests
-  translation: 興味・関心
+  translation: 趣味
 - id: education
   translation: 学歴
 - id: user_profile_latest
