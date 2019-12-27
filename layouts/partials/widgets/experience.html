@@ -12,7 +12,7 @@
 
     {{ if $page.Params.experience }}
     {{ $exp_len := len $page.Params.experience }}
-    {{ range $idx, $key := sort $page.Params.experience ".date_start" "desc" }}
+    {{ range $idx, $key := sort $page.Params.experience ".date_start" "asc" }}
     <div class="row experience">
       <!-- Timeline -->
       <div class="col-auto text-center flex-column d-none d-sm-flex">
@@ -37,11 +37,14 @@
               {{- with .company_url}}<a href="{{.}}" target="_blank" rel="noopener">{{end}}{{.company | markdownify | emojify}}{{with .company_url}}</a>{{end -}}
             </h4>
             <div class="text-muted exp-meta">
-              {{ (time .date_start).Format ($page.Params.date_format | default "January 2006") }} –
+              {{ (time .date_start).Format ($page.Params.date_format | default "January 2006") }}
               {{ if .date_end}}
-                {{ (time .date_end).Format ($page.Params.date_format | default "January 2006") }}
-              {{else}}
-                {{ i18n "present" | default "Present" }}
+                 –
+                {{ if eq .date_end "現在"}}
+                  {{ .date_end }}
+                {{ else }}
+                  {{ (time .date_end).Format ($page.Params.date_format | default "January 2006") }}
+                {{ end }}
               {{end}}
               {{with .location}}
                 <span class="middot-divider"></span>

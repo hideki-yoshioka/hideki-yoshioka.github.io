@@ -1,4 +1,10 @@
 // Override this file to add your own SCSS styling.
+.card {
+    height: 95%;
+    width: 100%;
+    padding: 12%;
+}
+
 .skill-desc {
     flex-basis: calc(100% - 75px - 30px);
     text-align: center;  
@@ -61,4 +67,9 @@
 
 .skill-desc-title i {
     margin-right: 12px;
+}
+
+table {
+    display: inline;
+    table-layout: fixed;
 }

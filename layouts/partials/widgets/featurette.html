@@ -16,8 +16,8 @@
   {{ end }}
 
   {{ range $elem_index, $elem_val := sort $page.Params.skill "order" "asc"}}
-    <div class="col-12 col-sm-4">
-      <div class="card" style="height: 95%; width: 100%; padding: 12%;">
+    <div class="col-12 col-sm-6">
+      <div class="card">
         <div class="skill-desc">
           {{ $pack := or $elem_val.icon_pack "fas" }}
           {{ $pack_prefix := $pack }}
