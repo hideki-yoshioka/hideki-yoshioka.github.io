@@ -1,0 +1,60 @@
+// Override this file to add your own SCSS styling.
+.skill-desc {
+    flex-basis: calc(100% - 75px - 30px);
+    text-align: center;  
+}
+
+.skill-desc .skill-desc-title {
+    margin-bottom: 3px;
+    font-size: 26px;
+    padding: 24px;
+    font-weight: bold;
+}
+
+.rate {
+    position: relative;
+    display: inline-block;
+    width: 110px;
+    height: 20px;
+    font-size: 20px;
+}
+
+.rate:before, .rate:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '★★★★★';
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+}
+  
+.rate:before {
+    color: #ddd;
+}
+  
+.rate:after {
+    color: #808080;
+    overflow: hidden;
+    white-space: nowrap;
+}
+  
+.rate1:after {
+    width: 20px;
+}
+  
+.rate2:after {
+    width: 40px;
+}
+  
+.rate3:after {
+    width: 60px;
+}
+  
+.rate4:after {
+    width: 80px;
+}
+  
+.rate5:after {
+    width: 100px;
+}

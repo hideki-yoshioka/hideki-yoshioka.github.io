@@ -15,20 +15,105 @@
   </div>
   {{ end }}
  
-  {{ range $page.Params.feature }}
-  {{ $pack := or .icon_pack "fas" }}
-  {{ $pack_prefix := $pack }}
-  {{ if in (slice "fab" "fas" "far" "fal") $pack }}
-    {{ $pack_prefix = "fa" }}
-  {{ end }}
   <div class="col-12 col-sm-4">
     <div class="card" style="height: 95%; width: 100%; padding: 12%;">
-      {{ with .icon }}<div class="featurette-icon"><i class="{{ $pack }} {{ $pack_prefix }}-{{ . }}"></i></div>{{ end }}
-      <ul class="list-group">
-        <h3>{{ .name | markdownify | emojify }}</h3>
-        {{ with .description }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
-      </ul>
+      <div class="skill-desc">
+        <h3 class="skill-desc-title"><i class="fas fa-desktop"></i>フロントエンド</h3>
+        <p>直近ではAngularJSを使用して開発していました。</p>
+        <table class="table table-borderless">
+          <thead>
+            <tr>
+              <th scope="col">技術</th>
+              <th scope="col">経験</th>
+              <th scope="col">スキル</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">javascrpt</th>
+              <td>2年</td>
+              <td><span class="rating"><p class="rate rate5"></p></span></td>
+            </tr>
+            <tr>
+              <th scope="row">jQuery</th>
+              <td>2年</td>
+              <td><span class="rating"><p class="rate rate3"></p></span></td>
+            </tr>
+            <tr>
+              <th scope="row">AngularJS</th>
+              <td>1年
+              </td><td><span class="rating"><p class="rate rate4"></p></span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
   </div>
-  {{ end }}
+  <div class="col-12 col-sm-4">
+    <div class="card" style="height: 95%; width: 100%; padding: 12%;">
+      <div class="skill-desc">
+        <h3 class="skill-desc-title"><i class="fas fa-desktop"></i>フロントエンド</h3>
+        <p>直近ではAngularJSを使用して開発していました。</p>
+        <table class="table table-borderless">
+          <thead>
+            <tr>
+              <th scope="col">技術</th>
+              <th scope="col">経験</th>
+              <th scope="col">スキル</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">javascrpt</th>
+              <td>2年</td>
+              <td><span class="rating"><p class="rate rate5"></p></span></td>
+            </tr>
+            <tr>
+              <th scope="row">jQuery</th>
+              <td>2年</td>
+              <td><span class="rating"><p class="rate rate3"></p></span></td>
+            </tr>
+            <tr>
+              <th scope="row">AngularJS</th>
+              <td>1年
+              </td><td><span class="rating"><p class="rate rate4"></p></span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-sm-4">
+    <div class="card" style="height: 95%; width: 100%; padding: 12%;">
+      <div class="skill-desc">
+        <h3 class="skill-desc-title"><i class="fas fa-desktop"></i>フロントエンド</h3>
+        <p>直近ではAngularJSを使用して開発していました。</p>
+        <table class="table table-borderless">
+          <thead>
+            <tr>
+              <th scope="col">技術</th>
+              <th scope="col">経験</th>
+              <th scope="col">スキル</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">javascrpt</th>
+              <td>2年</td>
+              <td><span class="rating"><p class="rate rate5"></p></span></td>
+            </tr>
+            <tr>
+              <th scope="row">jQuery</th>
+              <td>2年</td>
+              <td><span class="rating"><p class="rate rate3"></p></span></td>
+            </tr>
+            <tr>
+              <th scope="row">AngularJS</th>
+              <td>1年
+              </td><td><span class="rating"><p class="rate rate4"></p></span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
 </div>
