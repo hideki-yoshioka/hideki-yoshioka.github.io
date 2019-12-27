@@ -21,7 +21,7 @@
           <div class="col">&nbsp;</div>
         </div>
         <div class="m-2">
-          <span class="badge badge-pill border {{if not .date_end}}exp-fill{{end}}">&nbsp;</span>
+          <span class="badge badge-pill border {{ if eq .date_end "現在" }}exp-fill{{end}}">&nbsp;</span>
         </div>
         <div class="row h-50">
           <div class="col {{if lt $idx (sub $exp_len 1)}}border-right{{end}}">&nbsp;</div>
@@ -40,7 +40,7 @@
               {{ (time .date_start).Format ($page.Params.date_format | default "January 2006") }}
               {{ if .date_end}}
                  –
-                {{ if eq .date_end "現在"}}
+                {{ if eq .date_end "現在" }}
                   {{ .date_end }}
                 {{ else }}
                   {{ (time .date_end).Format ($page.Params.date_format | default "January 2006") }}
