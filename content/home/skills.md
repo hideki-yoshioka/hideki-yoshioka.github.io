@@ -189,11 +189,11 @@ subtitle = ""
       name = "Linux"
       experience = "5年以上"
       rate = "3"
-    [[skill.other.resume]]
+    [[skill.os.resume]]
       name = "HP-UX"
       experience = "5年以上"
       rate = "3"
-    [[skill.other.resume]]
+    [[skill.os.resume]]
       name = "BSD"
       experience = "2年以上"
       rate = "3"
