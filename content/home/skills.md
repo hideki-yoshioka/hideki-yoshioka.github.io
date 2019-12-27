@@ -237,10 +237,10 @@ subtitle = ""
       rate = "2"
     [[skill.other.resume]]
       name = "Confluence"
-      experience = "1年"
+      experience = "1年以上"
       rate = "4"
     [[skill.other.resume]]
       name = "Swagger"
-      experience = "1年"
+      experience = "1年以上"
       rate = "3"
 +++
