@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks | 吉岡のポートフォリオ</title>
+    <link>https://hideki-yoshioka.github.io/talk/</link>
+      <atom:link href="https://hideki-yoshioka.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent &amp; Upcoming Talks</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2019 Hideki Yoshioka Inc. All Rights Reserved.</copyright>
+    <image>
+      <url>https://hideki-yoshioka.github.io/img/icon-192.png</url>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>https://hideki-yoshioka.github.io/talk/</link>
+    </image>
+    
+  </channel>
+</rss>
