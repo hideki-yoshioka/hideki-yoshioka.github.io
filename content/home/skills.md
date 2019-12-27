@@ -60,6 +60,18 @@ subtitle = ""
       experience = "1年以上"
       rate = "3"
     [[skill.design.resume]]
+      name = "Markdown"
+      experience = "3年以上"
+      rate = "4"
+    [[skill.design.resume]]
+      name = "Hugo"
+      experience = "1年未満"
+      rate = "2"
+    [[skill.design.resume]]
+      name = "WordPress"
+      experience = "1年未満"
+      rate = "2"
+    [[skill.design.resume]]
       name = "Photoshop"
       experience = "1年未満"
       rate = "1"
