@@ -164,6 +164,14 @@ subtitle = ""
       experience = "2年以上"
       rate = "2"
     [[skill.infura.resume]]
+      name = "Docker"
+      experience = "2年以上"
+      rate = "4"
+    [[skill.infura.resume]]
+      name = "VirtualBox"
+      experience = "2年以上"
+      rate = "3"
+    [[skill.infura.resume]]
       name = "SAKURA"
       experience = "2年以上"
       rate = "2"
