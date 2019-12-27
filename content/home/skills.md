@@ -175,7 +175,7 @@ subtitle = ""
     icon = "desktop"
     icon_pack = "fas"
     title = "OS"
-    memo = "主に開発では、MacOSです。もちろんコマンドもばりばり書けます！"
+    memo = "主に開発では、MacOSです。<br>もちろんコマンドもばりばり書けます。"
     order = "7"
     [[skill.os.resume]]
       name = "Windows"

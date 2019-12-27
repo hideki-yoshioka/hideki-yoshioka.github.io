@@ -27,7 +27,7 @@
           <h3 class="skill-desc-title">
             <i class="{{ $pack }} {{ $pack_prefix }}-{{ $elem_val.icon }}"></i>{{ $elem_val.title }}
           </h3>
-          <p>{{ $elem_val.memo }}</p>
+          <p>{{ $elem_val.memo | markdownify | emojify }}</p>
           <table class="table table-borderless">
             <thead>
               <tr>
