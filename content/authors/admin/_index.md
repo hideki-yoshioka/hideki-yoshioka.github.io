@@ -1,6 +1,6 @@
 ---
 # Display name
-name: 吉岡英毅
+name: Hideki Yoshioka
 
 # Username (this should match the folder name)
 authors:

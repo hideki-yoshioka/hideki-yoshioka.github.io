@@ -46,6 +46,9 @@
     <ul class="fa-ul">
 
       {{ if and $data.email (not $page.Params.email_form) }}
+      {{ if $page.Params.detail }}
+      {{ $page.Params.detail  | markdownify | emojify }}
+      {{ end }}
       <li>
         <i class="fa-li fas fa-envelope fa-2x" aria-hidden="true"></i>
         <span id="person-email">
