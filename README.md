@@ -1,13 +1,14 @@
 ポートフォリオ作成におけるメモ書き
 ====
+# ローカルデプロイ
+1. `git clone https://github.com/hideki-yoshioka/hideki-yoshioka.github.io.git`
+1. `git submodule update --init --recursive`
+1. `hugo server -D`  
+1. http://localhost:1313/ にアクセスし確認する
 
-# サーバ起動
-- `hugo server -D`  
-あとは、修正していくと逐次反映される。
-
-# デプロイ
+# サーバデプロイ
 1. ソース修正
 1. `git add -A`
-2. `git commit -m 'コメント'`
-3. `./deploy.sh`
-4. サイトが反映されているか確認する
+1. `git commit -m 'コメント'`
+1. `./deploy.sh`
+1. サイトが反映されているか確認する
