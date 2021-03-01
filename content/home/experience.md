@@ -60,15 +60,12 @@ date_format = "2006年"
   単価面・待遇・スキル面に不満を持ち、フリーランスに転身。  
   当初は大阪で仕事をしていたが、案件が多い東京で活動中。
       
-  主に使用した言語やFW：
-  * PHP
-  * Python
+  直近で使用した言語やFW：
+  * Ruby
+  * Ruby on Rails
   * Javascript 
-  * Laravel
-  * Django
-  * jQuery
-  * Angular
   * Vue
+  * React
   """
 
 
