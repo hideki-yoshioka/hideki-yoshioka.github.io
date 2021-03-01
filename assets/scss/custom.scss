@@ -73,3 +73,28 @@ table {
     display: inline;
     table-layout: fixed;
 }
+
+.subsection {
+    margin: 0 auto;
+    padding: 1em 0;
+}
+.subsection h1 {
+    font-size: 36px;
+}
+.list_anchor{
+    list-style: none;
+    display: -webkit-box;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+    flex-wrap:         wrap;
+}
+.list_anchor::after{
+    content: "";
+    width: 30%;
+}
+.list_anchor li{
+    width: 30%;
+    margin-bottom: 1em;
+}

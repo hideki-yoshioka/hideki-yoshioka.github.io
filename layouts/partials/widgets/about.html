@@ -73,8 +73,16 @@
 
     {{ $person_page.Content }}
 
-    <div class="row">
+    <div class="subsection">
+      <h1>よく使用する技術 &amp; ソフトウェア</h1>
+      <ul class="list_anchor">
+        {{ range $person.skill_img }}
+        <li><img src="img/{{ . }}" width="100" alt=""></li>
+        {{ end }}
+      </ul>
+    </div>
 
+    <div class="row">
       {{ with $person.interests }}
       <div class="col-md-5">
         <h3>{{ i18n "interests" | markdownify }}</h3>

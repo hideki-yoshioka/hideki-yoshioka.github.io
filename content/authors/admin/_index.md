@@ -63,6 +63,14 @@ email: ""
 user_groups:
 - Researchers
 - Visitors
+
+skill_img:
+- laravel.png
+- rails.png
+- vue.png
+- react.png
+- aws.png
+- mysql.png
 ---
 
 学生の頃より、IT関係に興味があり、IT系の会社を転々とする。    
