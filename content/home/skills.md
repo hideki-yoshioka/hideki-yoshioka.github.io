@@ -188,6 +188,10 @@ subtitle = ""
       experience = "2年以上"
       rate = "3"
     [[skill.infura.resume]]
+      name = "firebase"
+      experience = "1年未満"
+      rate = "3"
+    [[skill.infura.resume]]
       name = "Docker"
       experience = "3年以上"
       rate = "5"
