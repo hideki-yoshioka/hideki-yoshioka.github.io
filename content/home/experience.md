@@ -38,15 +38,23 @@ date_format = "2006年"
   当初は客先常駐ばかりだったが、後に自社開発にシフト。  
   また、時代の変化にあわせて業務系エンジニアからWeb系エンジニアにシフト。
       
-  主に前半(業務系)で使用した言語：
-  * C(Pro*C)
-  * VB
+  <h4>前半(業務系)で使用した技術</h4>
+  <div class="subsection">
+    <ul class="list_anchor">
+      <li><img src="img/proc.png" width="100" alt=""></li>
+      <li><img src="img/vb.png" width="100" alt=""></li>
+    </ul>
+  </div>
 
-  主に後半(Web系)で使用した言語やFW：
-  * PHP
-  * Javascript
-  * CakePHP
-  * jQuery
+  <h4>後半(Web系)で使用した技術</h4>
+  <div class="subsection">
+    <ul class="list_anchor">
+      <li><img src="img/cakephp.png" width="100" alt=""></li>
+      <li><img src="img/jquery.png" width="100" alt=""></li>
+      <li><img src="img/gcp.png" width="100" alt=""></li>
+      <li><img src="img/docker.png" width="100" alt=""></li>
+    </ul>
+  </div>
   """
 
 [[experience]]
@@ -60,12 +68,31 @@ date_format = "2006年"
   単価面・待遇・スキル面に不満を持ち、フリーランスに転身。  
   当初は大阪で仕事をしていたが、案件が多い東京で活動中。
       
-  直近で使用した言語やFW：
-  * Ruby
-  * Ruby on Rails
-  * Javascript 
-  * Vue
-  * React
+  <h4>使用した技術</h4>
+  <div class="subsection">
+    <ul class="list_anchor">
+    <li><img src="img/laravel.png" width="100" alt=""></li>
+      <li><img src="img/rails.png" width="100" alt=""></li>
+      <li><img src="img/vue.png" width="100" alt=""></li>
+      <li><img src="img/react.png" width="100" alt=""></li>
+      <li><img src="img/gcp.png" width="100" alt=""></li>
+      <li><img src="img/aws.png" width="100" alt=""></li>
+      <li><img src="img/firebase.png" width="100" alt=""></li>
+      <li><img src="img/docker.png" width="100" alt=""></li>
+    </ul>
+  </div>
+
+  <h4>直近で使用した技術</h4>
+  <div class="subsection">
+    <ul class="list_anchor">
+      <li><img src="img/rails.png" width="100" alt=""></li>
+      <li><img src="img/react.png" width="100" alt=""></li>
+      <li><img src="img/gcp.png" width="100" alt=""></li>
+      <li><img src="img/aws.png" width="100" alt=""></li>
+      <li><img src="img/firebase.png" width="100" alt=""></li>
+      <li><img src="img/docker.png" width="100" alt=""></li>
+    </ul>
+  </div>
   """
 
 

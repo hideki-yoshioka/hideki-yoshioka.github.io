@@ -70,6 +70,8 @@ skill_img:
 - vue.png
 - react.png
 - aws.png
+- gcp.png
+- docker.png
 - mysql.png
 
 last_update: 2021年3月時点
