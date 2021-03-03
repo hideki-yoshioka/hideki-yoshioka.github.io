@@ -71,6 +71,8 @@ skill_img:
 - react.png
 - aws.png
 - mysql.png
+
+last_update: 2021年3月時点
 ---
 
 学生の頃より、IT関係に興味があり、IT系の会社を転々とする。    
